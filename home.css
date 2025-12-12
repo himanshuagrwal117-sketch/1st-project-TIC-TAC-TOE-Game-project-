@@ -1,0 +1,171 @@
+body{
+  padding:0px;
+  margin:0px;
+  height:100vh;
+  width:100%;
+  background-image:linear-gradient(to top, rgb(16, 16, 16), rgb(35, 35, 35));
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-image: url('assests/bg5.png');
+  background-repeat: none;
+  background-size: cover;
+  
+  
+  
+
+}
+.heading1{
+    color:rgb(226, 222, 222);
+    margin-bottom:30px;
+}
+.game-panel{
+    height:530px;
+    width:30%;
+    position: relative;
+    border-radius: 10px;
+    top:90px;
+    left:470px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center ;
+    padding:20px;
+    background-color: rgb(34, 34, 34);
+    border:1px solid white;
+}
+
+.game-box{
+    height:400px;
+    width:100%;
+    display: flex;  
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.button1{
+    width:32%;
+    font-size:90px;
+    border-radius: 10px;
+    color:rgb(190, 188, 188);
+    background-color: black;
+    border:none;
+    margin:2px;
+    text-align:center;
+    border:1px solid black;
+    
+}
+
+.button1:hover{
+    cursor: pointer;
+    background-color: rgb(15, 15, 15);
+    border:1px solid rgb(168, 168, 168)
+}
+.button1:disabled{
+    opacity:0.7;
+    cursor: not-allowed;
+}
+.reset{
+    background-color: aliceblue;
+    color: black;
+    width:25%;
+    height:50px;
+    border-style: none;
+    margin-top:20px;
+    border-radius: 30px;
+    font-weight: 600;
+}
+.reset:hover{
+    cursor: pointer;
+    background-color: black;
+    color:aliceblue;
+    border: 1px solid rgb(243, 227, 6);
+
+}
+.declare-result{
+    color: rgb(214, 186, 29);
+    font-size: 40px;
+    text-align: center;
+    margin-top:110px;
+}
+.score-panel{
+    width:25%;
+    height:300px;
+    
+    margin: 0;
+    position: absolute;
+    top: 200px;
+    left:40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.s1{
+    
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.s2{
+    
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.s3{
+   
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.score-name{
+    font-weight: 700;
+    font-size: 25px;
+    color: aliceblue;
+}
+.score1{
+    font-weight: 700;
+    font-size: 40px;
+    color: aliceblue;
+    color:green;
+}
+.score2{
+    font-weight: 700;
+    font-size: 40px;
+    color: aliceblue;
+    color: red;
+}
+.reset-2{
+    background-color: rgb(224, 191, 3);
+    color: rgb(23, 23, 23);
+    font-weight: 600;
+    border-radius: 40px;
+    width:80%;
+    height:70%;
+    font-size: 25px;
+    border-style: none;
+}
+.reset-2:hover{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: 1px solid white;
+}
+.logo-space{
+    position: absolute;
+    
+    height:300px;
+    width:300px;
+    right:130px;
+    top:200px;
+    
+}
+.logo_img{
+    height:350px;
+    width:400px;
+    
+}
